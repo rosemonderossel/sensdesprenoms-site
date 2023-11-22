@@ -1,0 +1,155 @@
+/*
+https://css4.pub/2015/icelandic/dictionary.html
+https://css4.pub/2015/icelandic/dictionary.pdf
+ */
+@import url(http://fonts.googleapis.com/css?family=Crimson+Text);
+@import url(monokrom/index.css);
+
+@prince-pdf { prince-pdf-page-layout: two-column-right }
+
+@page {
+  size: 160mm 200mm;
+  margin: 20mm;
+}
+
+@page chapter1, chapter2, chapter3, chapter4, chapter5, chapter6, chapter7, chapter8 {
+  font: 14pt Satyr10, monochrome;
+  @top-left { content: string(term, first); vertical-align: bottom; padding-bottom: 1em }
+  @top-center { content: string(letter, first-except); vertical-align: bottom; padding-bottom: 1em }
+  @top-right { content: string(term, last); vertical-align: bottom; padding-bottom: 1em }
+}
+
+@page chapter1:left, chapter2:left, chapter3:left, chapter4:left, chapter5:left, chapter6:left, chapter7:left, chapter8:left {
+  @bottom-left { content: counter(page); }
+}
+
+@page chapter1:right, chapter2:right, chapter3:right, chapter4:right, chapter5:right, chapter6:right, chapter7:right, chapter8:right, chapter9:right {
+  @bottom-right { content: counter(page) }
+  @right-top { content: flow(header) }
+}
+
+/* code to make side tags */
+
+@page chapter1 { @right-top { padding-top: 0cm }}
+@page chapter2 { @right-top { padding-top: 2cm }}
+@page chapter3 { @right-top { padding-top: 4cm }}
+@page chapter4 { @right-top { padding-top: 6cm }}
+@page chapter5 { @right-top { padding-top: 8cm }}
+@page chapter6 { @right-top { padding-top: 10cm }}
+@page chapter7 { @right-top { padding-top: 12cm }}
+@page chapter8 { @right-top { padding-top: 14cm }}
+
+.fiche_prenom:nth-child(8n+1) { page: chapter1 }
+.fiche_prenom:nth-child(8n+2) { page: chapter2 }
+.fiche_prenom:nth-child(8n+3) { page: chapter3 }
+.fiche_prenom:nth-child(8n+4) { page: chapter4 }
+.fiche_prenom:nth-child(8n+5) { page: chapter5 }
+.fiche_prenom:nth-child(8n+6) { page: chapter6 }
+.fiche_prenom:nth-child(8n+7) { page: chapter7 }
+.fiche_prenom:nth-child(8n+0) { page: chapter8 }
+
+
+header::after {
+  content: content();
+  width: 20mm;
+  font: 10mm/1 serif;
+  flow: static(header);
+  transform: rotate(90deg) translate(-12mm, -8mm);
+  transform-origin: bottom left;
+  border: 0.2pt solid #eee;
+  border-radius: 0.3cm;
+  text-align: center;
+  background: #eee;
+  padding: 3mm 0 0 0;
+}
+
+
+/* start the normal generic styles */
+
+body {
+  font: 10pt/11pt Satyr10, "Crimson Text", serif;
+  widows: 1; orphans: 1;
+  font-variant: prince-opentype(dlig, onum);
+}
+
+h1, h2 { margin: 0; padding: 0; }
+p { margin: 0; padding: 0; text-indent: 0.5em }
+
+section, fiche_prenom { page-break-after: always }
+
+
+/* titlepage */
+
+.couverture p, .titlepage p {
+  text-indent: 0; text-align: center;
+}
+
+.couverture h1, .titlepage h1 {
+  font: 60pt/70pt Faunus, "Crimson Text", serif;
+  text-align: center;
+  margin: 0.8em 0 1em;
+}
+
+.couverture small, .titlepage small {
+  display: block;
+  font-size: 0.4em;
+  line-height: 0.4em;
+}
+
+.couverture span, .titlepage span {
+  display: block;
+  font-size: 1.3em;
+  line-height: 1.2em;
+}
+
+/*
+.titlepage #original { font: 20pt Satyr10 }
+.titlepage #html { font: 20pt Faunus }
+.titlepage #css { font: 20pt Satyr10 }
+.titlepage #pdf { font: 20pt Faunus }
+.titlepage #fonts { font: 20pt Satyr10 }
+.titlepage #faunus { display: none; font: 20pt Faunus }
+.titlepage #satyr { display: none; font: 20pt Satyr10 }
+*/
+
+.couverture p, .titlepage p { font: 15pt Satyr10, "Crimson Text", serif; }
+.couverture a, .titlepage a { color: inherit; text-decoration: none }
+
+/* imprint */
+
+.imprint p {
+  padding-top: 5em;
+  text-align: center;
+}
+
+.imprint big {
+  font-size: 100pt;
+  line-height: 100pt;
+}
+
+/* chapter */
+
+.fiche_prenom, .chapter {
+  page: chapter;
+  columns: 2;
+  column-rule: 0.2pt solid black;
+  text-align: justify;
+}
+
+.fiche_prenom, .chapter header {
+  font: 80pt/88pt Faunus, "Crimson Text", serif;
+  text-align: center;
+  string-set: letter content();
+  page-break-after: avoid;
+  prince-bookmark-level: 1;
+}
+
+.fiche_prenom, .chapter p b:first-child { string-set: term content() }  /* pick up term to b used in running header */
+
+@media screen {
+  html { background: black; font-size: 20px }
+  body { background: white; width: 40em; margin: 3em auto; padding: 2em; }
+  section { border-bottom: thin solid black; padding-bottom: 1.5em; margin-bottom: 1.5em }
+  .imprint p { padding-top: 0 }
+  #fonts { display: none }
+}

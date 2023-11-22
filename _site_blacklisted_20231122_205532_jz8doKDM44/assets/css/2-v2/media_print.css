@@ -1,0 +1,32 @@
+/***
+ * media_print.css
+ **/
+
+body {
+    prince-text-replace: "’" "’";
+}
+
+@page no_de_page_std {
+    @bottom-center {
+        content: "– " counter(page) " –";
+        content: "© 2011–2023 sensdesprenom.com | 8e édition, juillet 2023";
+    }
+}
+
+.page_counter_reset {
+    /* page: no_de_page_std; */
+    counter-reset: page 1;
+}
+
+@page {
+    size: A4 portrait;
+    margin: 2cm;
+}
+
+div.fiche_prenom {
+    page-break-before: always;
+}
+
+.no_print {
+    display: none;
+}

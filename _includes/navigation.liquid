@@ -1,0 +1,35 @@
+<nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Alterner la navigation</span>
+                <span class="icon-bar"/>
+                <span class="icon-bar"/>
+                <span class="icon-bar"/>
+            </button>
+            <a class="navbar-brand" href="./">Le sens des prénoms<br/><span>en transgénérationnel</span></a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li{% if page.url=="/" %} class="active" {% endif %}>
+                    <a href="./">Accueil</a>
+                </li>
+                <li{% if page.url=="/actualites" %} class="active" {% endif %}>
+                    <a href="./actualites">Actualités</a>
+                </li>
+                <li{% if page.url=="/f-a-q" %} class="active" {% endif %}>
+                    <a href="./f-a-q">Questions fréquentes</a>
+                </li>
+                <li{% if page.url=="/sens" %} class="active" {% endif %}>
+                    <a href="./sens">Donner du sens</a>
+                </li>
+                <li{% if page.url=="/basededonnees" %} class="active" {% endif %}>
+                    <a href="./basededonnees">Base de données</a>
+                </li>
+                <li{% if page.url=="/ebook" %} class="active" {% endif %}>
+                    <a href="./ebook">Livre numérique</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>http://192.168.1.239:8000/</loc>
+</url>
+<url>
+<loc>http://192.168.1.239:8000/actualites</loc>
+</url>
+<url>
+<loc>http://192.168.1.239:8000/f-a-q</loc>
+</url>
+<url>
+<loc>http://192.168.1.239:8000/sens</loc>
+</url>
+<url>
+<loc>http://192.168.1.239:8000/basededonnees</loc>
+</url>
+<url>
+<loc>http://192.168.1.239:8000/ebook</loc>
+</url>
+<url>
+<loc>http://192.168.1.239:8000/assets/sensdesprenoms_light.html</loc>
+<lastmod>2023-11-22T13:56:41+01:00</lastmod>
+</url>
+</urlset>

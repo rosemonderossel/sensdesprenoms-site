@@ -1,0 +1,39 @@
+
+title: "Sens des prénoms en transgénérationnel"
+description: "Sens des prénoms en transgénérationnel — Rosemonde Rossel"
+locale: fr
+country: FR # FB ne reconnait pas CH
+
+url: "http://sensdesprenoms.com/"
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: true
+
+exclude: [ "CNAME", "README.md", "Gemfile", "Gemfile.lock" ]
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+
+plugins:
+  - jekyll-sitemap
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: []
+  ignore:
+    envs: []
+  blanklines: true
+  profile: false
+  startings: []
+
+sass:
+  sass_dir: assets/css
+  style: compressed

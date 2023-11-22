@@ -1,0 +1,22 @@
+/***
+ * media_all.css
+ **/
+
+* {
+	bookmark-state: closed;
+}
+
+.h1,
+h1 {
+    /* font-size: 2.5rem; */
+    font-size: 2rem;
+}
+.h2,
+h2 {
+    /* font-size: 1.2rem; */
+    font-size: inherit;
+}
+
+h2 em {
+    display: none;
+}

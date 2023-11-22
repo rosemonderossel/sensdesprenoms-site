@@ -1,0 +1,148 @@
+/***
+ * media_all.css
+ **/
+
+* {
+	bookmark-state: closed;
+}
+
+:link {
+    color: #006d89;
+    border: 1px solid #006d89;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+:visited {
+    color: #006d89;
+}
+
+body {
+    font-size: 10pt;
+    margin: 1em;
+    font-family: CMU Serif;
+    text-align: justify;
+}
+
+p {
+    margin: 0.2em 0 0.6em;
+    padding: 0.2em 0 0.6em;
+}
+
+.fiche_prenom {
+    padding-top: 0.3em;
+    margin-bottom: 2em;
+}
+
+sup,
+sub {
+    height: 0;
+    line-height: 1;
+    vertical-align: baseline;
+    position: relative;
+}
+
+sup {
+    bottom: 1ex;
+}
+
+sub {
+    top: 0.5ex;
+}
+
+h1 {
+    font-size: 20pt;
+    font-family: CMU Serif;
+    font-variant: small-caps;
+    letter-spacing: 5pt;
+    color: #006d89;
+    page-break-after: avoid;
+    margin: 0;
+}
+h1 a,
+h1 a:visited,
+h1 a:link,
+h1 a:link:visited {
+    color: inherit;
+    text-decoration: none;
+}
+
+.main_title {
+    letter-spacing: 1.2pt;
+}
+
+.intro h1 {
+    letter-spacing: 0pt;
+    page-break-before: always;
+}
+
+h2,
+p.h2 {
+    font-weight: bold;
+    font-size: 12pt;
+    font-family: CMU Serif;
+    letter-spacing: 1.5pt;
+    margin: 1em 0 0;
+    padding: 0;
+    widows: 3;
+    orphans: 3;
+    text-align: left;
+    /*
+             */
+    color: #00b1dd;
+    page-break-after: avoid;
+}
+
+h2 em,
+p.h2 em {
+    font-weight: 100;
+    letter-spacing: 1pt;
+}
+
+dt {
+    margin-top: 0.8em;
+    margin-bottom: 0.2em;
+    font-family: CMU Serif;
+    font-weight: bold;
+}
+
+dd {
+    margin-bottom: 0.2em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+body .couverture {
+    text-align: center;
+    font-size: 30pt;
+    font-family: CMU Serif;
+    margin-top: 5em;
+}
+
+.couverture .author {
+    font-size: 20pt;
+    font-style: normal;
+}
+
+.couverture .date {
+    font-size: 16pt;
+    font-style: normal;
+}
+
+.h2 {
+    font-size:120%;
+}
+
+h2 em {
+    display: none;
+}
+
+@supports ((position: -webkit-sticky) or (position: sticky))
+{
+    .sticky-top {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        z-index: 1020;
+    }
+}

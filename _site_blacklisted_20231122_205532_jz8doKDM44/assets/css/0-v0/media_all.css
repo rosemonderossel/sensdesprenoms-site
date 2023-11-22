@@ -1,0 +1,128 @@
+/***
+* media_all.css
+**/
+
+* {
+	bookmark-state: closed;
+}
+
+:link {
+    color: blue;
+}
+
+:visited {
+    color: purple;
+}
+
+body {
+    font-size: 10pt;
+    margin: 1em;
+    font-family: Verdana, serif;
+    text-align: justify;
+}
+
+p {
+    margin: 0.2em 0 0.6em;
+    padding: 0.2em 0 0.6em;
+}
+
+.fiche_prenom {
+    margin-bottom: 2em;
+}
+
+sup,
+sub {
+    height: 0;
+    line-height: 1;
+    vertical-align: baseline;
+    position: relative;
+}
+
+sup {
+    bottom: 1ex;
+}
+
+sub {
+    top: 0.5ex;
+}
+
+h1 {
+    font-size: 20pt;
+    font-family: sans-serif;
+    font-variant: small-caps;
+    letter-spacing: 5pt;
+    color: #006d89;
+    margin-top: 3em;
+}
+
+.main_title {
+    color: #00B1DD;
+    letter-spacing: 1.2pt;
+}
+.main_title:nth-child(2) {
+    color: black;
+}
+
+.intro h1 {
+    letter-spacing: 0pt;
+    page-break-before: always;
+}
+
+h2 {
+    font-size: 12pt;
+    color: #00b1dd;
+    font-family: sans-serif;
+    letter-spacing: 1.5pt;
+    margin: 1em 0 0;
+    widows: 3;
+    orphans: 3;
+    text-align: left;
+    color: #00B1DD;
+}
+
+h2 em {
+    font-weight: 100;
+    letter-spacing: 1pt;
+}
+
+dt {
+    margin-top: 0.8em;
+    margin-bottom: 0.2em;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+dd {
+    margin-bottom: 0.2em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+body .couverture {
+    text-align: center;
+    font-size: 30pt;
+    font-family: serif;
+    margin-top: 5em;
+}
+
+.couverture .author {
+    font-size: 20pt;
+    font-style: normal;
+}
+
+.toc dt {
+    padding-top: 1em;
+}
+
+.toc h2 {
+    margin-top: 30em;
+}
+
+.couverture .date {
+    font-size: 16pt;
+    font-style: normal;
+}
+
+h2 em {
+    display: none;
+}
