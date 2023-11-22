@@ -1,3 +1,3 @@
-# SENS DES PRÉNOMS — LE SITE WEB
+# SENS DES PRÉNOMS — LE SITE
 
 [sensdesprenoms.com](https://sensdesprenoms.com/)
