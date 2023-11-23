@@ -58,11 +58,13 @@ image-de-fond: html-bkg-1
 
 **J’ai une question qui n’a pas été traitée sur cette page ?**
 
--   Vous pouvez nous l’envoyer à {{ site.mailto_contact_sensdesprenoms_com_obf }}.
+-   Vous pouvez nous l’envoyer à [contact@sensdesprenoms.com].
+
 
 [la base de données]: ./basededonnees
 [livre numérique — ebook]: ./ebook
 [donner sens aux prénoms]: ./sens
 [La page actualités]: ./actualites
+[contact@sensdesprenoms.com]: {{ site.mailto_contact_sensdesprenoms_com_obf }}
 
 {% include credits+contacts.liquid %}

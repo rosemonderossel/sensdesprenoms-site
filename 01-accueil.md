@@ -5,7 +5,7 @@ published: true
 image-de-fond: html-bkg-1
 ---
 
-# Le sens des prénoms<br />en transgénérationnel
+# Le sens des prénoms en transgénérationnel
 
 {% include prev-next-buttons.liquid %}
 
@@ -13,7 +13,7 @@ image-de-fond: html-bkg-1
 
 Un site et un livre qui ont l’ambition de regrouper à un seul endroit toutes les informations utiles pour donner du sens à votre prénom !
 
-### base de données
+## base de données
 
 Nous mettons à votre disposition gratuitement une base de données avec les informations suivantes :
 
@@ -23,14 +23,13 @@ Nous mettons à votre disposition gratuitement une base de données avec les inf
 -   Histoire des Saints
 -   Histoire, mythes et légendes
 -   Personnages célèbres
-
 -   Consultation depuis Internet
 
 [CONSULTER LA BASE DE DONNÉES]
 
 [CONSULTER LA BASE DE DONNÉES]: ./basededonnees
 
-### livre numérique — ebook
+## livre numérique — ebook
 
 Lorsque vous achetez le livre numérique vous bénéficiez des informations et des avantages supplémentaires suivants :
 
@@ -38,7 +37,6 @@ Lorsque vous achetez le livre numérique vous bénéficiez des informations et d
 -   Repères transgénérationnels
 -   Langue des oiseaux
 -   5 mises à jour
-
 -   Consultation depuis votre ordinateur,
     smartphone ou tablette électronique
 
@@ -52,7 +50,9 @@ La base de données et le livre numérique sont régulièrement complétés et m
 
 ---
 
-**Témoignage de Charlotte**
+<section markdown="1" class="temoignage">
+
+## Témoignage de Charlotte
 
 **France – 05.02.2018**
 
@@ -60,7 +60,11 @@ Un grand merci à vous. Je suis historienne de formation, et depuis quelques ann
 Votre travail est considérable, une aide précieuse.
 Il offre de nouvelles clés de lecture.
 
-**Témoignage d’Élodie**
+</section>
+
+<section markdown="1" class="temoignage">
+
+## Témoignage d’Élodie
 
 **France – 22.03.2012**
 
@@ -70,5 +74,7 @@ J’étais impatiente et je comprends pourquoi, votre livre est un bijou !
 Lorsque j’ai commencé à faire mes recherches, je me suis rendue compte que je devais aller dans tous les sens, et je me suis dit “il me faut un livre regroupant tous les autres livres” et merci l’univers, il m’a entendu et m’a dirigé vers vous.
 Cela me confirme que je dois continuer à bosser sur mon arbre et que ma famille a bien des choses à me dire !
 Vous avez fait un boulot de titan et un grand bravo pour cela.
+
+</section>
 
 {% include credits+contacts.liquid %}

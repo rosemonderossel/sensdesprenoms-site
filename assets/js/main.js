@@ -51,8 +51,6 @@ document.addEventListener("DOMContentLoaded",
         document.body.addEventListener('swiperight', function(e) { navigate_to_page(e, prevLink); });
         document.body.addEventListener('swipeleft', function(e) { navigate_to_page(e, nextLink); });
     }
-
-    console.log("coucou")
 })();
 
 
