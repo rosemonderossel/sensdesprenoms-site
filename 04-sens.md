@@ -109,3 +109,5 @@ L’objectif est de chercher quelles images renvoient les sons lorsqu’on le pr
 **Jeu de mots** : jouer avec les images que suscitent les sons du prénom.
 
 **Exemples** : Yvan - vivant, Denis - deux nids ou déni
+
+{% include credits+contacts.liquid %}

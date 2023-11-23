@@ -11,10 +11,12 @@ image-de-fond: html-bkg-1
 
 Base de données évolutive. De nouveaux prénoms et de nouvelles données sont ajoutées régulièrement, des rectifications sont effectuées lorsque nécessaire.
 
-Vous pouvez contribuer à son développement [en nous faisant part de vos suggestions](mailto:contact@sensdesprenoms.com), remarques et éventuelles corrections.
+Vous pouvez contribuer à son développement [en nous faisant part de vos suggestions], remarques et éventuelles corrections.
 
 Pour obtenir un exemple complet, nous vous invitons à chercher un des prénoms suivants : Aaron, Marie ou Jules et ses dérivés Julie, Julien, Julienne, Juliette, Giulia.
 
-<!--
--->
-<iframe style="width:100%; height: 10000px; border: none" src="./assets/sensdesprenoms_light.html" id="sdp_light" />
+[en nous faisant part de vos suggestions]: {{site.mailto_contact_sensdesprenoms_com_obf}}
+
+<iframe style="width:100%; height:1000px; border:none; margin-bottom:5px; opacity:1; display:block" src="./assets/sensdesprenoms_light.html" id="sdp_light"></iframe>
+
+{% include credits+contacts.liquid %}

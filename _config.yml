@@ -37,3 +37,12 @@ compress_html:
 sass:
   sass_dir: assets/css
   style: compressed
+
+
+# Pour obfusquer un mail uiliser `obfuscation.html` dans le répertoire `assets`.
+# mailto:contact@sensdesprenoms.com
+mailto_contact_sensdesprenoms_com_obf: "&#x6d;&#x61;&#x69;&#x6c;&#x74;&#x6f;&#x3a;&#x63;&#x6f;&#x6e;&#x74;&#x61;&#x63;&#x74;&#x40;&#x73;&#x65;&#x6e;&#x73;&#x64;&#x65;&#x73;&#x70;&#x72;&#x65;&#x6e;&#x6f;&#x6d;&#x73;&#x2e;&#x63;&#x6f;&#x6d;"
+# mailto:nicolas.jeanmonod@gmail.com
+mailto_nicolas_jeanmonod_gmail_com_obf: '&#x6d;&#x61;&#x69;&#x6c;&#x74;&#x6f;&#x3a;&#x6e;&#x69;&#x63;&#x6f;&#x6c;&#x61;&#x73;&#x2e;&#x6a;&#x65;&#x61;&#x6e;&#x6d;&#x6f;&#x6e;&#x6f;&#x64;&#x40;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;'
+twitter_link: '<a href="http://twitter.com/#!/SensDesPrenoms"><i class="fa fa-twitter"></i></a>'
+facebook_link: '<a href="https://www.facebook.com/pages/Sens-des-pr%C3%A9noms/127466930661100"><i class="fa fa-facebook-official"></i></a>'

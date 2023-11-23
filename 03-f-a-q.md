@@ -9,11 +9,11 @@ image-de-fond: html-bkg-1
 
 {% include prev-next-buttons.liquid %}
 
-**À qui s’adresse [la base de données](./basededonnees) (non payante) sur le sens des prénoms en transgénérationnel disponible via le site Internet ?**
+**À qui s’adresse [la base de données] (non payante) sur le sens des prénoms en transgénérationnel disponible via le site Internet ?**
 
 -   À toutes les personnes cherchant à connaître l’étymologie d’un prénom, ses différentes variantes, les légendes ou histoires des saints qui l’entourent, les personnages célèbres qui l’ont porté. Ces informations générales sont une synthèse de données tirées de livres ou de sources sur Internet.
 
-**À qui s’adresse le [livre numérique — ebook](./ebook) (payant) sur le sens des prénoms en transgénérationnel ?**
+**À qui s’adresse le [livre numérique — ebook] (payant) sur le sens des prénoms en transgénérationnel ?**
 
 -   Aux professionnels travaillant avec l’approche en transgénérationnelle, et plus particulièrement la psychogénéalogie ou les constellations familiales.
 -   Aux stagiaires suivant une formation dans ces domaines.
@@ -32,9 +32,9 @@ image-de-fond: html-bkg-1
 
 **Que vais-je trouver dans le livre numérique ?**
 
--   Les informations générales sur les prénoms déjà disponibles dans [la base de données](./basededonnees) et des repères ou pistes à explorer lors d’une recherche en transgénérationnel, qui vous permettront de [donner sens aux prénoms](./sens) et accéder à l’inconscient familial.
+-   Les informations générales sur les prénoms déjà disponibles dans [la base de données] et des repères ou pistes à explorer lors d’une recherche en transgénérationnel, qui vous permettront de [donner sens aux prénoms] et accéder à l’inconscient familial.
     Il est à savoir que les repères sont à mettre systématiquement en relation avec votre histoire et l’histoire familiale. Il ne s’agit en aucun cas d’un déterminisme quelconque sur ce que la personne est amenée à vivre. Il n’y a pas de prénom meilleur qu’un autre.
-    Pour obtenir un exemple complet de ce que vous trouverez dans le livre numérique, nous vous invitons à taper un des prénoms suivant dans [la base de données](./basededonnees) : Jules et ses dérivés Julie, Julien, Julienne, Juliette, Giulia.
+    Pour obtenir un exemple complet de ce que vous trouverez dans le livre numérique, nous vous invitons à taper un des prénoms suivant dans [la base de données] : Jules et ses dérivés Julie, Julien, Julienne, Juliette, Giulia.
 
 **Suis-je concerné par tous les repères indiqués ?**
 
@@ -54,8 +54,15 @@ image-de-fond: html-bkg-1
 
 **Pourquoi m’assurer d’avoir la dernière version ?**
 
--   Ce livre numérique est dynamique. Il continue à s’enrichir, à être complété et des vérifications sont constamment effectuées. Nous tenons compte également de vos remarques et suggestions. Chaque version est datée et numérotée. [La page actualités](./actualites) vous tient informé de la dernière mise à jour en date.
+-   Ce livre numérique est dynamique. Il continue à s’enrichir, à être complété et des vérifications sont constamment effectuées. Nous tenons compte également de vos remarques et suggestions. Chaque version est datée et numérotée. [La page actualités] vous tient informé de la dernière mise à jour en date.
 
 **J’ai une question qui n’a pas été traitée sur cette page ?**
 
--   Vous pouvez nous l’envoyer à [contact@sensdesprenoms.com](mailto:contact@sensdesprenoms.com).
+-   Vous pouvez nous l’envoyer à {{ site.mailto_contact_sensdesprenoms_com_obf }}.
+
+[la base de données]: ./basededonnees
+[livre numérique — ebook]: ./ebook
+[donner sens aux prénoms]: ./sens
+[La page actualités]: ./actualites
+
+{% include credits+contacts.liquid %}

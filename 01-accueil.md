@@ -26,7 +26,9 @@ Nous mettons à votre disposition gratuitement une base de données avec les inf
 
 -   Consultation depuis Internet
 
-[CONSULTER LA BASE DE DONNÉES](./basededonnees)
+[CONSULTER LA BASE DE DONNÉES]
+
+[CONSULTER LA BASE DE DONNÉES]: ./basededonnees
 
 ### livre numérique — ebook
 
@@ -40,7 +42,9 @@ Lorsque vous achetez le livre numérique vous bénéficiez des informations et d
 -   Consultation depuis votre ordinateur,
     smartphone ou tablette électronique
 
-[ACHETER LE LIVRE NUMÉRIQUE](./ebook)
+[ACHETER LE LIVRE NUMÉRIQUE]
+
+[ACHETER LE LIVRE NUMÉRIQUE]: ./ebook
 
 ---
 
@@ -67,11 +71,4 @@ Lorsque j’ai commencé à faire mes recherches, je me suis rendue compte que j
 Cela me confirme que je dois continuer à bosser sur mon arbre et que ma famille a bien des choses à me dire !
 Vous avez fait un boulot de titan et un grand bravo pour cela.
 
-{% comment %}
-<!--
-{% include carousel.liquid %}
-{% include datedechoix.liquid %}
-{% include facebook-button-box_count.liquid %}
-{% include facebook-actu.liquid %}
--->
-{% endcomment %}
+{% include credits+contacts.liquid %}

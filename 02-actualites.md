@@ -32,3 +32,5 @@ Parution de la 2e version du livre numérique (V2)
 **11.11.11**
 
 Parution de la 1ère version du livre numérique “Le sens des prénoms en transgénérationnel”.
+
+{% include credits+contacts.liquid %}
