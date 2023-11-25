@@ -17,6 +17,14 @@ Pour obtenir un exemple complet, nous vous invitons à chercher un des prénoms 
 
 [en nous faisant part de vos suggestions]: {{site.mailto_contact_sensdesprenoms_com_obf}}
 
-<iframe style="width:100%; height:400px; border:none; margin-bottom:5px; opacity:1; display:block" src="./assets/sensdesprenoms_light.html" id="sdp_light"></iframe>
+
+<!-- https://rosemonderossel.github.io/sensdesprenoms-site/assets/sensdesprenoms_light.html -->
+<iframe
+style="width:100%; height:400px; border:none; margin-bottom:5px; opacity:1; display:block"
+src="./assets/sensdesprenoms_light.html"
+id="sdp_light"
+></iframe>
 
 {% include credits+contacts.liquid %}
+
+
