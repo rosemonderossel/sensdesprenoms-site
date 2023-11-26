@@ -25,6 +25,13 @@ src="./assets/sensdesprenoms_light.html"
 id="sdp_light"
 ></iframe>
 
+<!--
+<object
+type="text/html"
+data="./assets/sensdesprenoms_light.html"
+width="600"
+height="400"
+></object>
+-->
+
 {% include credits+contacts.liquid %}
-
-
