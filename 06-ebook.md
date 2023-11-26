@@ -13,6 +13,10 @@ Conditions d’achat
 
 Le livre numérique – ebook est vendu au prix de CHF 35.— (env. € 31.—).
 
+{% include paypal.liquid %}
+{% comment %}
+{% endcomment %}
+
 Ce prix comprend une mise à jour gratuite une fois par an environ, pendant 5 ans.
 
 Avant d’acheter le livre numérique, nous vous invitons à parcourir la rubrique des [questions fréquentes].
